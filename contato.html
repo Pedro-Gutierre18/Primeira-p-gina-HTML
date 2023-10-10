@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        label, textarea {
+            padding-left: 5px;
+        }
+        fieldset {
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- MENU -->
+            <div #imagem>
+                <img src="imagens\logo.png" alt="" width="150px">
+            </div>
+            <h1></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens\4.jpg" alt="" width="100%">
+                <!-- HEADER -->
+            </div>
+
+            <div class="content">
+                <h2>Telefones para contato</h2>
+                <p><strong>Whatsapp</strong>:(11)91234-6439<br>
+                <strong>Tel</strong>:(11)31234-75311</p>
+
+                <h2>Endereço da clínica</h2>
+                <p>Av. Maria Luiza Americano, 1908</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.087561928616!2d-46.47702068826293!3d-23.565298478708737!2m3
+                !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66fe947d962d%3A0x42941ff397fa817c!2sAv.%20Maria%20Luiza%20Americano%2C%201908-1996%20-
+                %20Cidade%20L%C3%ADder%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008275-000!5e0!3m2!1spt-BR!2sbr!4v1696939536173!5m2!1spt-BR!2sbr" width="500" 
+                height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+                <!-- Formulario -->
+                <form>
+                    <fieldset>
+                        <legend>Dados para contato</legend>
+                        <label for="nome">Nome: </label><input type="text">
+                        <label for="email">E-mail: </label><input type="email"> 
+                        <label for="assunto">Assunto: </label><input type="text"> <br>
+                        <label for="menssagem">Menssagem: </label><textarea name="menssagem" id="" cols="20" rows="5" placeholder="Deixe aqui sua mensagem"></textarea> <br>
+                        <button>Enviar</button> <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+                <!-- CONTEUDO -->
+            </div>
+
+            <div class="footer">
+                <footer>Av. Maria Luiza Americano, 1908 |
+                        petshopveterinario@gmail.com.br | 
+                        (11)91455-53159</footer>
+                <p><strong>Todos os direitos resevados</strong></p>
+                <!-- RODAPE -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
